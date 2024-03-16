@@ -1,0 +1,24 @@
+                        //Program 2: Perform Mathematical Operations with Functions
+void main() {
+  // Example numbers
+  double num1 = 10.5;
+  double num2 = 5.0;
+
+  // Call functions
+  double sumResult = addNumbers(num1, num2);
+  double productResult = multiplyNumbers(num1, num2);
+
+  // Print results
+  print("Sum of $num1 and $num2 is $sumResult");
+  print("Product of $num1 and $num2 is $productResult");
+}
+
+// Function to add two numbers
+double addNumbers(double a, double b) {
+  return a + b;
+}
+
+// Function to multiply two numbers
+double multiplyNumbers(double a, double b) {
+  return a * b;
+}
