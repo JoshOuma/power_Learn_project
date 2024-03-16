@@ -1,0 +1,24 @@
+                                  //Program 3: Determine Grade Based on Marks
+void main() {
+  // Example student marks
+  double marks = 78.5;
+
+  // Determine grade
+  String grade = getGrade(marks);
+
+  // Print grade
+  print("Student's grade: $grade");
+}
+
+// Function to determine grade based on marks
+String getGrade(double marks) {
+  if (marks > 85) {
+    return "Excellent";
+  } else if (marks >= 75) {
+    return "Very Good";
+  } else if (marks >= 65) {
+    return "Good";
+  } else {
+    return "Average";
+  }
+}
