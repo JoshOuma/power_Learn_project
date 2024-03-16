@@ -1,0 +1,12 @@
+                                           //Program 1: Display Personal Information
+void main() {
+  // Declare variables
+  String name = "Copilot";
+  int age = 2;
+  String school = "AI University";
+  String hobby = "Generating creative content";
+
+  // Print personal information
+  print("My name is $name. I am $age years old, studying at $school, and my hobby is $hobby.");
+}
+
